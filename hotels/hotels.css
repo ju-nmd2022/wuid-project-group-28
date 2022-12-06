@@ -1,14 +1,17 @@
-/* content {
-  grid-area: content;
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;
-  grid-template-rows: 0.5rem 2fr 2fr;
-  grid-template-areas:
-    ". . . ."
-    "filter ";
-} */
 
-/* navbar */
+/* Navigation bar starts here*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#navBar {
+  width: 100%;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -67,7 +70,62 @@ nav {
 nav .menu {
   display: none;
 }
-/* navbar ends */
+
+/* For mobile version */
+@media only screen and (max-width: 700px) {
+  .logo {
+    position: fixed;
+    top: 4%;
+    left: 7%;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: inline-block;
+    width: 100%;
+    padding: 100px 7% 0;
+    background: rgb(242, 240, 231);
+    text-align: right;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    font-size: 22px;
+  }
+  nav .nav-links li {
+    margin: 10px 0;
+    display: block;
+  }
+  .account {
+    margin: 15px 0 30px;
+    display: inline-block;
+  }
+  .cart {
+    margin: 15px 0 30px;
+    display: inline-block;
+  }
+  nav .menu {
+    display: block;
+    position: fixed;
+    top: 3%;
+    right: 7%;
+  }
+  .active::after {
+    left: -40px;
+    transform: translate(0, 50%);
+    bottom: 50%;
+    border-radius: 2px;
+  }
+  .hidemenu {
+    max-height: 350px;
+  }
+
+  .activities {
+    margin-top: 20px;
+  }
+}
+
+/* Navigation bar ends here*/
 
 /* list of hotels */
 .list-container {
