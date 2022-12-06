@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="activities.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="/home/style.css" /> -->
+    <script
+    src="https://kit.fontawesome.com/bf1e44629f.js"
+    crossorigin="anonymous"></script>
+    <title>Activities</title>
+  </head>
+  
+<!-- Navigation bar starts here-->
+<div class="header">
+  <nav id="navBar">
+    <a href="/home/index.html"><img src="logo.png" class="logo"></a>
+    <ul class="nav-links">
+      <li><a href="/aboutus/aboutus.html" class="active">About us</a></li>
+      <li><a href="/hotels/hotels.html">Hotels</a></li>
+      <li><a href="/activites/activities.html">Activities</a></li>
+      <li><a href="/aboutus/aboutus.html">Contacts</a></li>
+    </ul>
+    <div>
+      <img src="account.png" class="account">
+      <img src="cart.png" class="cart">
+    </div>
+    <img src="menu.png" class="menu" onclick="togglebtn()">
+  </nav>
+</div>
+<script>
+  var navBar = document.getElementById("navBar");
+
+  function togglebtn(){
+          navBar.classList.toggle("hidemenu");
+    }
+</script>
+<!-- Navigation bar ends here-->
+
+
+  <body>
+    <script src="activities.js" defer></script>
+    
+<!-- list of activities -->
+<div class="list-container">
+  <div class="left-col">
+    <h1>Our Activities</h1>
+    <p class="activites-text">
+      Besides  the hotels, our travel agency offers some programmes, which has been designed by us based on our previous experiences and feedbacks of our tourists. 
+      We provide enjoyable activities to every member of the family, including small children and young adoults who want to experience the cultural side of Egypt as well. 
+      Do not stress about creating the programmes by yourself, we have already done it for you. Just pick the packages you like and enjoy the experience the fullest.
+    </p>
+
+    <div class="activites">
+      <div class="activites-img">
+        <img src="waterpark.jpg" />
+      </div>
+      <div class="activites-info">
+        <p>Waterpark</p>
+        <h3>Aquaventure Water Park, Hurghada</h3>
+        <p>Hotel pick-up / 7 hours enjoying the park and lunch / Dinner at the hotel / Meet mascot Sophie after dinner.</p>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <div class="activites-price">
+          <p>Familiy price</p>
+          <h4>€ 100 <span>/ per person</span></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="activites">
+      <div class="activites-img">
+        <img src="gastronomy.jpg" />
+      </div>
+      <div class="activites-info">
+        <p>Gastronomy</p>
+        <h3>Hurghada Street Food Festival</h3>
+        <p class="info-text">Hotel pick-up / Guide / local food, Dessert, drinks / veg. options</p>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star"></i>
+        <div class="activites-price">
+
+          <h4>€ 100 <span>/ per person</span></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="activites">
+      <div class="activites-img">
+        <img src="cairotrip.jpg" />
+      </div>
+      <div class="activites-info">
+        <p>Cairo</p>
+        <h3>Deluxe Queen Room With Street View</h3>
+        <p>Hotel pick-up / Egyptoloist tour guide / Lunch / Egyptian Museum / Pyramids of Gyza and Sphynx</p>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+        <div class="activites-price">
+          <h4>€ 100 <span>/ per person</span></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="activites">
+      <div class="activites-img">
+        <img src="diving.jpg" />
+      </div>
+      <div class="activites-info">
+        <p>Diving</p>
+        <h3>Adventure With The Ocean</h3>
+        <p>Hotel pick-up / Boat tour / Fishing / Snorkelling / Scuba diving / Lunch / Swim with dolphines</p>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+        <div class="activites-price">
+          <h4>€ 100 <span>/ per person</span></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="activites">
+      <div class="activites-img">
+        <img src="riding.jpg" />
+      </div>
+      <div class="activites-info">
+        <p>Riding</p>
+        <h3>Horse/ Camel/ Quad Riding</h3>
+        <p>Hotel pick-up / quad tour / Horse riding at the beach/desert / Beduine Village / Camel tour / Typical Egyptian dinner</p>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <div class="activites-price">
+          <h4>€ 100 <span>/ per person</span></h4>
+        </div>
+    </div>
+  </div>
+  </div>
+<!-- list of activitiess ends -->
+
+
+<!-- footer -->
+<!-- this code is an inspiration from https://youtu.be/lLdzlLL33G8 -->
+    <div class="footer">
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="/home/index.html">Home</a>
+        <a href="/contacts/contacts.html">About Us</a>
+        <a href="/hotels/hotels.html">Hotels</a>
+        <a href="/activites/activities.html">Activities</a>
+      </div>
+      <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+          <input type="email" placeholder="Your Email Address" required />
+          <br />
+          <button type="submit">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+      <div class="col-3">
+        <h3>CONTACTS</h3>
+        <p>
+          Hammargatan 11,<br />
+          103 16 Stockholm,<br />Sweden
+        </p>
+        <div class="social-icons">
+          <i class="fa-regular fa-phone"></i>
+          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+<!-- footer end -->
+
+  </body>
+</html>

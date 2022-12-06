@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="booking.css" />
+    <script src="booking.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/bf1e44629f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Booking</title>
+  </head>
+
+  <body>
+    <!-- Navigation bar starts here-->
+
+    <div class="header">
+      <nav id="navBar">
+        <a href="/home/index.html"><img src="logo.png" class="logo" /></a>
+        <ul class="nav-links">
+          <li><a href="/aboutus/aboutus.html" class="active">About us</a></li>
+          <li><a href="/hotels/hotels.html">Hotels</a></li>
+          <li><a href="/activites/activities.html">Activities</a></li>
+          <li><a href="/aboutus/aboutus.html">Contacts</a></li>
+        </ul>
+        <div>
+          <img src="account.png" class="account" />
+          <img src="cart.png" class="cart" id="cart" />
+          <a href="/cart/cart.html">
+            <img src="cart1.png" id="cart1" height="35px" />
+          </a>
+        </div>
+        <img src="menu.png" class="menu" onclick="togglebtn()" />
+      </nav>
+    </div>
+
+    <script>
+      var navBar = document.getElementById("navBar");
+
+      function togglebtn() {
+        navBar.classList.toggle("hidemenu");
+      }
+    </script>
+
+    <!-- Navigation bar ends here-->
+
+    <div class="container">
+      <div class="container-form">
+        <form action="#">
+          <h1 class="heading">Booking Details</h1>
+
+          <div class="container-form1">
+            <div class="form-field">
+              <p class="title" >Check-in</p>
+              <input type="date" />
+            </div>
+
+            <div class="form-field">
+              <p class="title">Check-out</p>
+              <input type="date" />
+            </div>
+
+            <div class="form-field">
+              <p class="title">Adults</p>
+              <select name="select" id="#" class="adults-box">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="5+">5+</option>
+              </select>
+
+              <p class="title">Children</p>
+              <select name="select" id="#">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="5+">5+</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <p class="title">Rooms</p>
+              <select name="select" id="#">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="container-form2">
+            <h3 class="subheading">
+              Add an Activity for the complete experience
+            </h3>
+            <select name="select" id="#">
+              <option value="0">choose activity</option>
+              <option value="1">Aqua Park</option>
+              <option value="2">Cairo Tour</option>
+              <option value="3">Quad/ Camel/ Horse Riding</option>
+              <option value="4">Gastronomy</option>
+              <option value="5">Diving</option>
+            </select>
+          </div>
+
+          <div class="container-form3">
+            <h2 class="personaldetails">Your Personal Details</h2>
+
+            <div class="form-field">
+              <p class="title">First Name</p>
+              <input type="text" placeholder="First Name" />
+            </div>
+
+            <div class="form-field">
+              <p class="title">Last Name</p>
+              <input type="text" placeholder="Last Name" />
+            </div>
+
+            <div class="form-field">
+              <p class="title">E-mail Adress</p>
+              <input type="text" placeholder="e-mail" />
+            </div>
+
+            <div class="form-field">
+              <p class="title">Confirm E-mail Adress</p>
+              <input type="text" placeholder="e-mail" />
+            </div>
+
+            <p>Special Requests</p>
+            <div class="form-field">
+              <input class="special-requests" type="text" />
+            </div>
+          </div>
+
+          <button id="btn" class="btn">ADD TO CART</button>
+        </form>
+      </div>
+
+      <div class="container-pic">
+        <h3>
+          Beach Hotel
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </h3>
+        <img src="hotel.jpg" height="600px" class="hotel-pic" />
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+  References: https://www.youtube.com/watch?v=ShpH_1EPox0&t=306s -->

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cart.css" />
+    <script src="cart.js" defer></script>
+    <title>Cart</title>
+</head>
+<body>
+    
+    <!-- Navigation bar starts here-->
+
+  <div class="header">
+    <nav id="navBar">
+      <a href="/home/index.html"><img src="logo.png" class="logo" /></a>
+      <ul class="nav-links">
+        <li><a href="/aboutus/aboutus.html" class="active">About us</a></li>
+        <li><a href="/hotels/hotels.html">Hotels</a></li>
+        <li><a href="/activites/activities.html">Activities</a></li>
+        <li><a href="/aboutus/aboutus.html">Contacts</a></li>
+      </ul>
+      <div>
+        <img src="account.png" class="account" />
+        <img src="/booking/cart1.png" id="cart1" height="35px"/>
+      </div>
+      <img src="menu.png" class="menu" onclick="togglebtn()" />
+    </nav>
+  </div>
+
+  <script>
+    var navBar = document.getElementById("navBar");
+
+    function togglebtn() {
+      navBar.classList.toggle("hidemenu");
+    }
+  </script>
+
+  <!-- Navigation bar ends here-->
+
+  
+    <div class="container">
+      <div class="container-form">
+        <form action="#">
+          <h1 class="heading">Your Cart</h1>
+
+          <h4>Beach Hotel</h4>
+          <p>Spacious Suites With Privat Terrace</p>
+
+          <button id="btn" class="btn">Payment</button>
+        </form>
+      </div>
+
+      <div class="container-pic">
+        <h3>Beach Hotel ⭐️⭐️⭐️⭐️</h3>
+        <img src="hotel.jpg" height="600px" class="hotel-pic" />
+      </div>
+    </div>
+
+<!-- footer -->
+    <!-- this code is an inspiration from https://youtu.be/lLdzlLL33G8 -->
+    <div class="footer">
+        <div class="col-1">
+          <h3>USEFUL LINKS</h3>
+          <a href="/home/index.html">Home</a>
+          <a href="/contacts/contacts.html">About Us</a>
+          <a href="/hotels/hotels.html">Hotels</a>
+          <a href="/activites/activities.html">Activities</a>
+        </div>
+        <div class="col-2">
+          <h3>NEWSLETTER</h3>
+          <form>
+            <input type="email" placeholder="Your Email Address" required />
+            <br />
+            <button type="submit">SUBSCRIBE NOW</button>
+          </form>
+        </div>
+        <div class="col-3">
+          <h3>CONTACTS</h3>
+          <p>
+            Hammargatan 11,<br />
+            103 16 Stockholm,<br />Sweden
+          </p>
+          <div class="social-icons">
+            <i class="fa-regular fa-phone"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <!-- footer end -->
+
+
+</body>
+</html>
