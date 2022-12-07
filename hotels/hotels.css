@@ -273,3 +273,11 @@ form button {
 }
 
 /* footer end */
+
+/* responsive footer */
+
+@media screen and (max-width: 767px) {
+  .footer {
+    width: 25%;
+  }
+}
