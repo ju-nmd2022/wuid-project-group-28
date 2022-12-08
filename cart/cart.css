@@ -5,6 +5,11 @@
   text-decoration: none;
 }
 
+a:hover {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+
 .container {
   font-family: Arial, Helvetica, sans-serif;
 }

@@ -295,6 +295,13 @@ form button {
   cursor: pointer;
 }
 
+a:hover {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+
+/* https://www.w3schools.com/cssref/sel_hover.php */
+
 /* .col-3 p {
 } */
 
