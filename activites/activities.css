@@ -282,13 +282,31 @@ form button {
   cursor: pointer;
 }
 
-.social-icons {
-  margin-top: 30px;
-}
-
 .social-icons i {
   font-size: 23px;
   margin: 10px;
   cursor: pointer;
 }
+
+/* .col-3 p {
+} */
+
+.social-icons {
+  margin-top: 16px;
+  letter-spacing: 15px;
+}
+
+.phone {
+  max-width: 7%;
+}
+.mail {
+  max-width: 7%;
+}
+.facebook {
+  max-width: 7%;
+}
+.instagram {
+  max-width: 7%;
+}
+
 /* footer end */
