@@ -25,13 +25,13 @@ nav {
 }
 
 .account {
-  height: 30px;
+  height: 40px;
   cursor: pointer;
   margin-right: 2vw;
 }
 
 .cart {
-  height: 30px;
+  height: 40px;
   cursor: pointer;
 }
 
@@ -96,11 +96,11 @@ nav .menu {
     display: block;
   }
   .account {
-    margin: 15px 0 30px;
+    margin: 15px 0 40px;
     display: inline-block;
   }
   .cart {
-    margin: 15px 0 30px;
+    margin: 15px 0 40px;
     display: inline-block;
   }
   nav .menu {

@@ -44,12 +44,12 @@ nav {
 }
 
 .cart {
-  height: 30px;
+  height: 40px;
   cursor: pointer;
 }
 
 .menu {
-  height: 30px;
+  height: 40px;
 }
 
 .nav-links li {
@@ -109,11 +109,11 @@ nav .menu {
     display: block;
   }
   .account {
-    margin: 15px 0 30px;
+    margin: 15px 0 40px;
     display: inline-block;
   }
   .cart {
-    margin: 15px 0 30px;
+    margin: 15px 0 40px;
     display: inline-block;
   }
   nav .menu {
