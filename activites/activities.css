@@ -212,6 +212,10 @@ p {
   width: 800px;
   letter-spacing: 0.2px;
 }
+
+.info-text {
+  font-family: "Times New Roman", Times, serif;
+}
 /* activites-list ends */
 
 /* * {
