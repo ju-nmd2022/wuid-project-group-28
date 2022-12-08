@@ -211,7 +211,9 @@ p {
   font-family: "Times New Roman", Times, serif;
   font-size: large;
   width: 800px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
+  line-height: 1.4;
+  margin-bottom: 30px;
 }
 
 .info-text {
