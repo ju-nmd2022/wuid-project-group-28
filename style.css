@@ -221,45 +221,37 @@ nav .menu {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* footer */
+/* footer starts */
 
-.footer {
-  margin-top: 140px;
-  max-width: 100%;
-  padding: 9 rem;
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 30vh;
+  width: 100%;
   background: #f2f0e7;
-  color: #000000;
-  display: flex;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-}
-
-.footer div {
   text-align: center;
+  align-items: center;
 }
 
-.col-2 {
-  flex-grow: 2;
-  width: 34vw;
+.social-icons img {
+  width: 23px;
+  margin-top: 1vh;
 }
 
-.col-1 {
-  width: 33vw;
-}
-.col-3 {
-  width: 33vw;
-}
-
-.footer div h3 {
-  font-weight: 300;
-  margin-bottom: 30px;
-  letter-spacing: 1px;
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1vh;
 }
 
 .col-1 a {
-  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
-  color: #000000;
-  margin-bottom: 10px;
+  color: black;
+}
+
+.col-2 button {
+  margin-top: 2vh;
 }
 
 form input {
@@ -267,9 +259,6 @@ form input {
   height: 45px;
   border-radius: 4px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  outline: none;
   border: none;
 }
 
@@ -283,62 +272,33 @@ form button {
   cursor: pointer;
 }
 
-.social-icons i {
-  font-size: 23px;
-  margin: 10px;
-  cursor: pointer;
+form button:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 5px rgba(138, 138, 138, 0.692);
 }
 
-/* .col-3 p {
-} */
-
-.social-icons {
-  margin-top: 16px;
-  letter-spacing: 15px;
-}
-
-.phone {
-  max-width: 7%;
-}
-.mail {
-  max-width: 7%;
-}
-.facebook {
-  max-width: 7%;
-}
-.instagram {
-  max-width: 7%;
+a:hover {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
 }
 
 @media only screen and (max-width: 700px) {
-  .footer {
+  .footer-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    align-self: center;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: 0vw;
-    margin-right: 0px;
+    height: 75vh;
+    align-items: center;
   }
-
-  form input {
-    width: 300px;
-    height: 45px;
-  }
-
   .col-1 {
-    margin-top: 40px;
+    margin-bottom: 4vh;
   }
-
   .col-2 {
-    margin-top: 30px;
+    margin-bottom: 4vh;
   }
-
   .col-3 {
-    margin-top: 40px;
+    margin-bottom: 4vh;
   }
 }
 
-/* footer end */
+/* footer ends */
