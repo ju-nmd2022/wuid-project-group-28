@@ -192,7 +192,7 @@ nav .menu {
   color: #333;
   font-size: 22px;
   margin: 4px 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .hotel-info i {
@@ -223,9 +223,10 @@ a:hover {
   color: rgb(0, 0, 0);
 }
 
-/* p {
-  font-family: Arial, Helvetica, sans-serif;
-} */
+.subheader {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .hotel-text {
   font-family: "Times New Roman", Times, serif;
   font-size: large;
