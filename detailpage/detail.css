@@ -1,14 +1,12 @@
 .container {
   display: grid;
-  height: 100vh;
+  height: 40vh;
   grid-template-columns: 0.2fr 2fr 2fr 0.2fr;
-  grid-template-rows: 1fr 2fr 2fr 1fr;
-  grid-template-areas:
-    "nav nav nav nav"
-    "main main main main"
-    "sidebar1 content1 content2 sidebar2"
-    "footer footer footer footer";
+  grid-template-rows: 1fr;
+  grid-template-areas: "sidebar1 content1 content2 sidebar2";
   grid-gap: 2.5rem;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 
 /* Navigation bar starts here*/
