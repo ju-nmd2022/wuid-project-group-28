@@ -222,6 +222,9 @@ a:hover {
   font-weight: 800;
   color: rgb(0, 0, 0);
 }
+.active {
+  font-weight: 800;
+}
 
 .subheader {
   font-family: Verdana, Geneva, Tahoma, sans-serif;

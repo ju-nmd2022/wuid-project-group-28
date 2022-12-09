@@ -306,6 +306,10 @@ a:hover {
   color: rgb(0, 0, 0);
 }
 
+.active {
+  font-weight: 800;
+}
+
 /* https://www.w3schools.com/cssref/sel_hover.php */
 
 /* .col-3 p {
