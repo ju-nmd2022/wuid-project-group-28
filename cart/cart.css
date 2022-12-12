@@ -197,6 +197,13 @@ select {
   }
 }
 
+i {
+  color: #f6be19;
+  font-size: 18px;
+  margin: 10px 0.1px;
+  width: 18px;
+}
+
 /* footer starts */
 
 .footer-container {
