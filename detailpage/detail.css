@@ -139,6 +139,7 @@ nav .menu {
 
 /* content 1 */
 
+
 i2 {
   color: #f6be19;
   font-size: 18px;
@@ -149,6 +150,10 @@ i2 {
 /* content 1 ends */
 
 /* content 2*/
+
+.content2 h4{
+  margin-top: 2vh;
+}
 
 .content2 img {
   color: #000000;
