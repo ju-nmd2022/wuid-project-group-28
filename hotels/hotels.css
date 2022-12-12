@@ -138,16 +138,16 @@ nav .menu {
 
 .left-col {
   flex-basis: 45%;
-  margin-left: 5%;
+  margin-left: 25%;
   position: relative;
 }
-.right-col {
+/* .right-col {
   margin-right: 150px;
   position: relative;
   flex-basis: 45%;
-  /* margin-left: 40%;
-  margin-top: -100%; */
-}
+  margin-left: 40%;
+  margin-top: -100%;
+} */
 
 .left-col h1 {
   color: #333;
