@@ -131,11 +131,11 @@ nav .menu {
 
 .left-col {
   flex-basis: 55%;
-  margin-left: 5%;
+  margin-left: 23%;
 }
-.right-col {
+/* .right-col {
   flex-basis: 35%;
-}
+} */
 
 .left-col h1 {
   color: #333;

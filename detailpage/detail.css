@@ -4,9 +4,9 @@
   grid-template-columns: 0.2fr 2fr 2fr 0.2fr;
   grid-template-rows: 1fr;
   grid-template-areas: "sidebar1 content1 content2 sidebar2";
-  grid-gap: 2.5rem;
-  margin-top: 4vh;
-  margin-bottom: 4vh;
+  grid-gap: 3.5rem;
+  margin-top: 6vh;
+  margin-bottom: 20vh;
 }
 
 /* Navigation bar starts here*/
@@ -139,7 +139,6 @@ nav .menu {
 
 /* content 1 */
 
-
 i2 {
   color: #f6be19;
   font-size: 18px;
@@ -151,7 +150,7 @@ i2 {
 
 /* content 2*/
 
-.content2 h4{
+.content2 h4 {
   margin-top: 2vh;
 }
 
