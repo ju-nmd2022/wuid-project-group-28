@@ -147,6 +147,9 @@ h1 {
 
 .hotel-pic {
   border-radius: 12px;
+  height: "600px";
+  width: 600px;
+  object-fit: cover;
 }
 
 form {
@@ -187,6 +190,9 @@ select {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     margin: auto;
+  }
+  .hotel-pic {
+    width: 400px;
   }
 }
 
