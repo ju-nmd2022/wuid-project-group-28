@@ -6,7 +6,7 @@
   grid-template-areas: "sidebar1 content1 content2 sidebar2";
   grid-gap: 3.5rem;
   margin-top: 6vh;
-  margin-bottom: 20vh;
+  margin-bottom: 18vh;
 }
 
 /* Navigation bar starts here*/
@@ -20,7 +20,6 @@
 
 #navBar {
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -147,12 +146,21 @@ i2 {
   width: 18px;
 }
 
+h2 {
+  margin-top: 3vh;
+}
+
+h4 {
+  margin-top: 2vh;
+  width: 98%;
+}
+
 /* content 1 ends */
 
 /* content 2*/
 
 .content2 h4 {
-  margin-top: 2vh;
+  margin-top: 6vh;
 }
 
 .content2 img {
@@ -169,6 +177,8 @@ i2 {
   padding: 10px 30px;
   font-size: 15px;
   cursor: pointer;
+  margin-left: 68%;
+  margin-bottom: 4%;
 }
 
 .book-now:hover {
@@ -215,6 +225,11 @@ main {
   grid-area: content2;
   background-color: #f2f0e7;
   padding-left: 4%;
+}
+
+p {
+  width: 95%;
+  margin-top: 2%;
 }
 
 /* footer starts */
