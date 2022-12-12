@@ -73,7 +73,6 @@ nav .menu {
 
 /* For mobile version */
 @media only screen and (max-width: 700px) {
-  
   .logo {
     position: fixed;
     top: 2%;
@@ -217,6 +216,17 @@ nav .menu {
 
 a {
   text-decoration: none;
+}
+
+h5 {
+  font-size: x-large;
+  font-weight: 700;
+  color: #333;
+}
+
+h5:hover {
+  text-decoration: underline;
+  font-size: 25px;
 }
 
 a:hover {
