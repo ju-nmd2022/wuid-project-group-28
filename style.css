@@ -167,6 +167,16 @@ nav .menu {
   flex-wrap: wrap;
 }
 
+.hotel-container img {
+  width: 300px;
+  height: 300px;
+}
+
+.activities-container img {
+  width: 300px;
+  height: 300px;
+}
+
 .container h2 {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 10px;

@@ -153,6 +153,7 @@ nav .menu {
   border-top: 1px solid #ccc;
   height: fit-content;
   width: fit-content;
+  align-items: center;
   /* background-color: #f2f0e7; */
 }
 
