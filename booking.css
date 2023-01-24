@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+
+/* stars */
+i {
+  color: #f6be19;
+  font-size: 16px;
+  margin: 9px 0.1px;
+  width: 18px;
+}
+
+/* Navigation bar starts here*/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 7%;
+  background-color: #f2f0e7;
+}
+
+.logo {
+  height: 70px;
+  cursor: pointer;
+}
+
+.account {
+  height: 40px;
+  cursor: pointer;
+  margin-right: 2vw;
+}
+
+.cart {
+  height: 40px;
+  cursor: pointer;
+}
+
+.menu {
+  height: 30px;
+}
+
+.nav-links li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: " ";
+  background: rgb(255, 255, 255);
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -12px;
+  border-radius: 2px;
+}
+
+nav .menu {
+  display: none;
+}
+
+/* For mobile version */
+@media only screen and (max-width: 700px) {
+  .logo {
+    position: fixed;
+    top: 4%;
+    left: 7%;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: inline-block;
+    width: 100%;
+    padding: 100px 7% 0;
+    background: rgb(242, 240, 231);
+    text-align: right;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    font-size: 22px;
+  }
+  nav .nav-links li {
+    margin: 10px 0;
+    display: block;
+  }
+  .account {
+    margin: 15px 0 40px;
+    display: inline-block;
+  }
+  .cart {
+    margin: 15px 0 40px;
+    display: inline-block;
+  }
+  nav .menu {
+    display: block;
+    position: fixed;
+    top: 3%;
+    right: 7%;
+  }
+  .active::after {
+    left: -40px;
+    transform: translate(0, 50%);
+    bottom: 50%;
+    border-radius: 2px;
+  }
+  .hidemenu {
+    max-height: 350px;
+  }
+
+  .activities {
+    margin-top: 20px;
+  }
+}
+
+/* Navigation bar ends here*/
+
+h1 {
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+h2 {
+  padding-bottom: 20px;
+  padding-top: 45px;
+}
+
+.container {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.check-content {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.adults-box {
+  margin-right: 25px;
+}
+
+.special-requests {
+  width: 400px;
+  height: 100px;
+}
+
+.title {
+  margin-right: 10px;
+}
+
+.container-form {
+  padding: 5px;
+  margin: 0 auto;
+}
+.container-form1 {
+  margin-bottom: 30px;
+}
+
+.hotel-pic {
+  border-radius: 12px;
+  height: "600px";
+  width: 600px;
+  object-fit: cover;
+}
+
+form {
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.form-field {
+  display: flex;
+  height: 20px;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+
+input {
+  border-radius: 4px;
+  border-width: 1px;
+  height: 25px;
+  text-align: center;
+}
+
+select {
+  padding: 5px 10px;
+  border-radius: 4px;
+  height: 25px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #f2f0e7;
+  border: 2px solid rgba(0, 0, 0, 0.469);
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 5px rgba(138, 138, 138, 0.692);
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+  }
+
+  .hotel-pic {
+    width: 400px;
+  }
+}
+
+/* Add to Cart */
+
+#cart1 {
+  display: none;
+  height: 43px;
+}
+
+/* footer starts */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 30vh;
+  width: 100%;
+  background: #f2f0e7;
+  text-align: center;
+  align-items: center;
+}
+
+.social-icons img {
+  width: 23px;
+  margin-top: 1vh;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1vh;
+}
+
+.col-1 a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.col-2 button {
+  margin-top: 2vh;
+}
+
+.footer-container form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+}
+
+.footer-container form button {
+  background: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 350px;
+  align-items: center;
+}
+
+.footer-container form button:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 5px rgba(138, 138, 138, 0.692);
+}
+
+a:hover {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 700px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 75vh;
+    align-items: center;
+  }
+  .col-1 {
+    margin-bottom: 4vh;
+  }
+  .col-2 {
+    margin-bottom: 4vh;
+  }
+  .col-3 {
+    margin-bottom: 4vh;
+  }
+}
+
+/* footer ends */
