@@ -1,10 +1,10 @@
 let image = document.getElementById("backgroundImages");
 let images = [
-  "/images/coralls.jpg",
+  "coralls.jpg",
   "homebackground.jpg",
-  "/hotels/hotel4.png",
-  "/images/yachts.jpg",
-  "images/camelpyramid.jpg",
+  "hotel4.png",
+  "yachts.jpg",
+  "camelpyramid.jpg",
 ];
 setInterval(function () {
   let random = Math.floor(Math.random() * 5);
