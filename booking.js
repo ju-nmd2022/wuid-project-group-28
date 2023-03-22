@@ -7,6 +7,10 @@ btn.addEventListener("click", function () {
 });
 
 function changeImage() {
+  image2.style.display = "inline-block";
+}
+
+function changeImage() {
   image.style.display = "none";
   image2.style.display = "inline-block";
 }
