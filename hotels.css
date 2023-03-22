@@ -127,146 +127,98 @@ nav .menu {
 
 /* Navigation bar ends here*/
 
-/* list of hotels */
-.list-container {
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+/*Text Formattings*/
+a {
+  text-decoration: none;
 }
-
-.left-col {
-  flex-basis: 45%;
-  margin-left: 23%;
-  position: relative;
+h1 {
+  padding: 0 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 5vh;
 }
-/* .right-col {
-  margin-right: 150px;
-  position: relative;
-  flex-basis: 45%;
-  margin-left: 40%;
-  margin-top: -100%;
-} */
-
-.left-col h1 {
-  color: #333;
-  font-weight: 800;
-  margin-bottom: 30px;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.hotels {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 30px 0;
-  border-top: 1px solid #ccc;
-  height: fit-content;
-  width: fit-content;
-}
-
-.hotels-img {
-  flex-basis: 40%;
-}
-
-.hotel-info {
-  flex-basis: 58%;
-  color: #555;
-  /* background-color: #f2f0e7; */
-}
-
-.hotels-img img {
-  max-width: 100%;
-  height: 13rem;
-  width: 25rem;
-  border-radius: 12px;
-}
-
-.headline {
-  margin: 0;
-}
-
-.hotel-info h3 {
+.h3 {
   font-weight: 600;
   color: #333;
   font-size: 22px;
   margin: 4px 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.house-price {
+  text-align: right;
+}
+.house-price h4 {
+  font-size: 20px;
+}
+.house-price h4 span {
+  font-size: 16px;
+  font-weight: 400;
+}
+h5 {
+  font-size: x-large;
+  font-weight: 700;
+  color: #333;
+}
+h5:hover {
+  font-size: 25px;
+}
+a:hover {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
 
+/*stars*/
 .hotel-info i {
   color: #ff5361;
   font-size: 18px;
   margin: 10px 1px;
 }
 
-.house-price {
-  text-align: right;
+.hotel-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+.hotel-text-container {
+  padding: 0 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 5vh;
 }
 
-.house-price h4 {
-  font-size: 20px;
+.container-main img {
+  border-radius: 12px;
+  height: 13rem;
+  width: 20rem;
+  object-fit: cover;
+  float: right;
+  margin-right: 50px;
 }
 
-.house-price h4 span {
-  font-size: 16px;
-  font-weight: 400;
+.hotel-info {
+    max-width: 400px;
 }
 
-a {
-  text-decoration: none;
-}
+@media only screen and (max-width: 700px) {
+  h1 {
+    padding: 0 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 18vh;
+  }
 
-h5 {
-  font-size: x-large;
-  font-weight: 700;
-  color: #333;
-}
+  .hotel-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 
-h5:hover {
-  font-size: 25px;
+  .container-main img {
+    float: none;
+    margin-right: 0px;
+  }
 }
-
-a:hover {
-  font-weight: 800;
-  color: rgb(0, 0, 0);
-}
-.active {
-  font-weight: 800;
-}
-
-.subheader {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.hotel-text {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 13pt;
-  width: 800px;
-  letter-spacing: 0.3px;
-  line-height: 1.4;
-  margin-bottom: 30px;
-}
-
-/* right box */
-.sidebar {
-  border: 1px solid #999;
-  padding: 20px 20px;
-  margin-top: 10px;
-}
-.sidebar h2 {
-  font-weight: 500;
-  font-size: medium;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.sidebar h3 {
-  font-weight: 500;
-  margin: 20px 0 10px;
-  font-size: medium;
-}
-
-/* list of hotels ends */
 
 /* footer starts */
 
