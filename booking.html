@@ -10,7 +10,7 @@
       src="https://kit.fontawesome.com/bf1e44629f.js"
       crossorigin="anonymous"
     ></script>
-    <title>Booking</title>
+    <title>Booking 2</title>
   </head>
 
   <body>
@@ -27,22 +27,13 @@
         </ul>
         <div>
           <img src="account.png" class="account" />
-          <img src="cart.png" class="cart" id="cart" />
           <a href="cart.html">
-            <img src="cart1.png" id="cart1" height="35px" />
+            <img src="cart.png" id="cart" height="35px" />
           </a>
         </div>
         <img src="menu.png" class="menu" onclick="togglebtn()" />
       </nav>
     </div>
-
-    <script>
-      var navBar = document.getElementById("navBar");
-
-      function togglebtn() {
-        navBar.classList.toggle("hidemenu");
-      }
-    </script>
 
     <!-- Navigation bar ends here-->
 
@@ -137,7 +128,9 @@
             </div>
           </div>
 
-          <button id="btn" class="btn">ADD TO CART</button>
+          <button onclick="changeImage()" id="btn" class="btn">
+            ADD TO CART
+          </button>
         </form>
       </div>
 

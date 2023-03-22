@@ -1,16 +1,5 @@
-var image = document.getElementById("cart");
-
-var image2 = document.getElementById("cart1");
-
-btn.addEventListener("click", function () {
-  changeImage();
-});
+var cart = document.querySelector("#cart");
 
 function changeImage() {
-  image2.style.display = "inline-block";
-}
-
-function changeImage() {
-  image.style.display = "none";
-  image2.style.display = "inline-block";
+  cart.src = "cart1.png";
 }
