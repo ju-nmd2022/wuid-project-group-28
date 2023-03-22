@@ -159,6 +159,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  grid-gap: 30px;
 }
 
 .check-content {
@@ -191,6 +192,7 @@ h2 {
   height: "600px";
   width: 600px;
   object-fit: cover;
+  max-width: 100%;
 }
 
 form {
