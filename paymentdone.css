@@ -140,28 +140,6 @@ nav .menu {
 .heading {
   margin-right: 1rem;
 }
-/* .hotel-pic {
-  border-radius: 12px;
-  height: "600px";
-  width: 600px;
-  object-fit: cover;
-} */
-
-/* .btn {
-  background-color: #f2f0e7;
-  border: 2px solid rgba(0, 0, 0, 0.469);
-  color: rgb(0, 0, 0);
-  border-radius: 30px;
-  padding: 10px 30px;
-  font-size: 15px;
-  cursor: pointer;
-  margin-top: 100px;
-} */
-
-/* .btn:hover {
-  transform: scale(1.02);
-  box-shadow: 5px 5px 5px rgba(138, 138, 138, 0.692);
-} */
 
 @media only screen and (max-width: 700px) {
   .container {
