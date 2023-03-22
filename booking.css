@@ -194,7 +194,6 @@ h2 {
 }
 
 form {
-  display: grid;
   grid-row-gap: 10px;
 }
 
