@@ -130,44 +130,22 @@ nav .menu {
 
 /* Navigation bar ends here*/
 
-h1 {
-  margin-bottom: 8vh;
-}
-
 .container {
-  margin: 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.container-form {
-  padding: 7px;
-  margin: 0 auto;
+.heading {
+  margin-right: 1rem;
 }
-
 /* .hotel-pic {
   border-radius: 12px;
   height: "600px";
   width: 600px;
   object-fit: cover;
 } */
-
-form {
-  display: grid;
-  grid-row-gap: 10px;
-}
-
-.form-field {
-  display: flex;
-  height: 0px;
-  align-items: baseline;
-}
-
-input,
-select {
-  padding: 5px 10px;
-}
 
 /* .btn {
   background-color: #f2f0e7;
