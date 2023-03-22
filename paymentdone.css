@@ -142,26 +142,15 @@ h1 {
 }
 
 .container-form {
-  padding: 5px;
+  padding: 7px;
   margin: 0 auto;
 }
 
-.hotel-pic {
+/* .hotel-pic {
   border-radius: 12px;
   height: "600px";
   width: 600px;
   object-fit: cover;
-}
-/* 
-form {
-  display: grid;
-  grid-row-gap: 10px;
-}
-
-.form-field {
-  display: flex;
-  height: 20px;
-  align-items: baseline;
 } */
 
 form {
@@ -171,9 +160,8 @@ form {
 
 .form-field {
   display: flex;
-  height: 20px;
+  height: 0px;
   align-items: baseline;
-  margin-bottom: 30px;
 }
 
 input,
@@ -181,7 +169,7 @@ select {
   padding: 5px 10px;
 }
 
-.btn {
+/* .btn {
   background-color: #f2f0e7;
   border: 2px solid rgba(0, 0, 0, 0.469);
   color: rgb(0, 0, 0);
@@ -190,28 +178,12 @@ select {
   font-size: 15px;
   cursor: pointer;
   margin-top: 100px;
-}
+} */
 
-.btn:hover {
+/* .btn:hover {
   transform: scale(1.02);
   box-shadow: 5px 5px 5px rgba(138, 138, 138, 0.692);
-}
-
-.book-now {
-  background-color: #f2f0e7;
-  border: 2px solid rgba(0, 0, 0, 0.469);
-  color: rgb(0, 0, 0);
-  border-radius: 30px;
-  padding: 10px 30px;
-  font-size: 15px;
-  cursor: pointer;
-  margin-top: 100px;
-}
-
-.book-now:hover {
-  transform: scale(1.02);
-  box-shadow: 5px 5px 5px rgba(138, 138, 138, 0.692);
-}
+} */
 
 @media only screen and (max-width: 700px) {
   .container {
