@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="hotels.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="/header/header.css"/> -->
+    <link rel="stylesheet" href="hotels.css" />
+    <script src="hotels.js" defer></script>
     <script
       src="https://kit.fontawesome.com/bf1e44629f.js"
       crossorigin="anonymous"
@@ -13,15 +13,14 @@
     <title>Hotels</title>
   </head>
   <body>
-    <script src="hotels.js" defer></script>
+    <!-- Navigation bar starts here-->
 
-    <!--navbar -->
     <div class="header">
       <nav id="navBar">
         <a href="index.html"><img src="logo.png" class="logo" /></a>
         <ul class="nav-links">
           <li><a href="aboutus.html">About us</a></li>
-          <li><a href="hotels.html" class="active">Hotels</a></li>
+          <li><a href="hotels.html">Hotels</a></li>
           <li><a href="activities.html">Activities</a></li>
           <li><a href="aboutus.html">Contacts</a></li>
         </ul>
@@ -40,173 +39,88 @@
         navBar.classList.toggle("hidemenu");
       }
     </script>
-    <!--nav bar end-->
 
-    <!-- list of hotels -->
-    <div class="list-container">
-      <div class="left-col">
-        <h1>Our Hotels</h1>
-        <br />
-        <p class="hotel-text">
-          To make our customers as pleased as possible have we handpicked out
-          the best hotels in Hurghada near all our activity packages. The
-          different hotels offer something for everybody, from a relaxed stay to
-          a more family friendly hotel. Read more about the selections off
-          hotels and pick out something that fits for you and your family. Book
-          the hotel and the activity through us and we will do the rest.
-        </p>
+    <!-- Navigation bar ends here-->
 
-        <div class="hotels">
-          <div class="hotels-img">
-            <img src="hotel1.png" />
-          </div>
-          <div class="hotel-info">
-            <p class="subheader">Beach Hotel</p>
-            <a href="detail.html"
-              ><h5>Spacious Suites With Privat Terrace</h5></a
-            >
-            <p>
-              1 Bedroom / 2 Bathroom / Wifi / 24h reception / International
-              cuisine / Beauty treatments / Cooking class
-            </p>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <div class="house-price">
-              <p>2 Guest</p>
-              <h4>€ 410 <span>/ day</span></h4>
-            </div>
-          </div>
+    <h1>Our Hotels</h1>
+    <br />
+    <p class="hotel-text-container">
+      To make our customers as pleased as possible have we handpicked out the
+      best hotels in Hurghada near all our activity packages. The different
+      hotels offer something for everybody, from a relaxed stay to a more family
+      friendly hotel. Read more about the selections off hotels and pick out
+      something that fits for you and your family. Book the hotel and the
+      activity through us and we will do the rest.
+    </p>
+
+    <div class="container-main">
+      <!--Hotel1-->
+      <div class="hotel-container">
+        <div>
+          <img src="hotel1.png" />
         </div>
 
-        <div class="hotels">
-          <div class="hotels-img">
-            <img src="hotel2.png" />
-          </div>
-          <div class="hotel-info">
-            <p class="subheader">Spa Hotel</p>
-            <h5>Deluxe Queen Room With Street View</h5>
-            <p>1 Bedroom / 2 Bathroom / 24h reception / Wifi / Spa treatments</p>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <div class="house-price">
-              <p>2 Guest</p>
-              <h4>€ 350 <span>/ day</span></h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="hotels">
-          <div class="hotels-img">
-            <img src="hotel3.png" />
-          </div>
-          <div class="hotel-info">
-            <p class="subheader">Historic Hotel</p>
-            <h5>Deluxe Queen Room With Street View</h5>
-            <p>1 Bedroom / 1 Bathroom / 24h reception / Wifi / 5 International
-              cuisine </p>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <div class="house-price">
-              <p>2 Guest</p>
-              <h4>€ 250 <span>/ day</span></h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="hotels">
-          <div class="hotels-img">
-            <img src="hotel4.png" />
-          </div>
-          <div class="hotel-info">
-            <p class="subheader">Sunrise Hotel</p>
-            <h3>Deluxe Queen Room With Street View</h3>
-            <p>1 Bedroom / 1 Bathroom / Wifi / Beauty treatments</p>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <div class="house-price">
-              <p>2 Guest</p>
-              <h4>€ 220 <span>/ day</span></h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="hotels">
-          <div class="hotels-img">
-            <img src="hotel5.png" />
-          </div>
-          <div class="hotel-info">
-            <p class="subheader">Aqua Park Hotel</p>
-            <h3>Deluxe Queen Room With Street View</h3>
-            <p>2 Bedroom / 2 Bathroom / Wifi / Kitchen</p>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star"></i>
-            <div class="house-price">
-              <p>4 Guest</p>
-              <h4>€ 190 <span>/ day</span></h4>
-            </div>
+        <div class="hotel-info">
+          <p class="subheader">Beach Hotel</p>
+          <a href="detail.html"><h5>Spacious Suites With Privat Terrace</h5></a>
+          <p>
+            1 Bedroom / 2 Bathroom / Wifi / 24h reception / International
+            cuisine / Beauty treatments / Cooking class
+          </p>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <div class="house-price">
+            <p>2 Guest</p>
+            <h4>€ 410 <span>/ day</span></h4>
           </div>
         </div>
       </div>
 
-
-      <!-- list of hotels ends -->
-
-      <!-- footer starts-->
       
-    
-<div class="footer-container">
-
-  <div class="col-1">
-    <h3>USEFUL LINKS</h3>
-    <a href="index.html">Home</a><br/>
-    <a href="contacts.html">About Us</a><br/>
-    <a href="hotels.html">Hotels</a><br/>
-    <a href="activities.html">Activities</a>
-  </div>
-
-  <div class="col-2">
-    <h3>NEWSLETTER</h3>
-    <form>
-      <input type="email" placeholder="Your Email Address" required />
-      <br />
-      <button type="submit">SUBSCRIBE NOW</button>
-    </form>
-  </div>
-
-  <div class="col-3">
-    <h3>CONTACTS</h3>
-    <p>
-      Hammargatan 11,<br/>
-      103 16 Stockholm,<br/>
-      Sweden<br/>
-      +46 271 267 12<br/>
-      egyptpackages@gmail.com
-    </p>
-    <div class="social-icons">
-      <img class="phone" src="phone-call.png" />
-      <img class="mail" src="email.png" />
-      <img class="facebook" src="facebook.png" />
-      <img class="instagram" src="instagram.png" />
+      
     </div>
-  </div>
-</div>
 
-<!-- footer ends -->
+    <!-- footer starts-->
 
+    <div class="footer-container">
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="index.html">Home</a><br />
+        <a href="contacts.html">About Us</a><br />
+        <a href="hotels.html">Hotels</a><br />
+        <a href="activities.html">Activities</a>
+      </div>
+
+      <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+          <input type="email" placeholder="Your Email Address" required />
+          <br />
+          <button type="submit">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+
+      <div class="col-3">
+        <h3>CONTACTS</h3>
+        <p>
+          Hammargatan 11,<br />
+          103 16 Stockholm,<br />
+          Sweden<br />
+          +46 271 267 12<br />
+          egyptpackages@gmail.com
+        </p>
+        <div class="social-icons">
+          <img class="phone" src="phone-call.png" />
+          <img class="mail" src="email.png" />
+          <img class="facebook" src="facebook.png" />
+          <img class="instagram" src="instagram.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer ends -->
   </body>
 </html>
